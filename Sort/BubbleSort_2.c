@@ -4,7 +4,7 @@ int main()
     int h[]={1,4,23,5,2,3,465,9};
     int i,j,t;
     int flag=0;
-    for(i=0;i<7;i++)
+    for(i=0;i<7 && flag;i++)
     {
         flag=1;
         for(j=0;j<7-i;j++)
